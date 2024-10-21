@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding:0;
+    /*box-sizing: border-box; */
+}
+body{
+    background-color: blue;
+}
+.signup .title h3{
+margin-left: 40px;
+font-size: 20px;
+color: blue;
+}
+.down{
+    position: relative;
+    top:20px;
+    right:20px;
+}
+.signup{
+    background-color: #b3b389;
+    position:relative;
+    display:flex;
+    left: 35%;
+    top: 30px;
+    /* transform: translate(-50%); */
+    height:300px;
+    width:20%;
+    padding-right: 20px;
+    padding-left: 90px;
+    padding-bottom:340px;
+    margin-top: 20px;
+    border: 1px solid blue;
+    border-radius: 2rem;
+    
+    /* justify-content: center; */
+}
+.input-field1{
+    font-size: 20px;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+}
+.fn{
+    width: 100%;
+    height: 30px;
+    border:1px solid blue;
+    border-radius:10px;
+    outline :none ;
+}
+.un{
+    width: 100%;
+    height: 30px;
+    border-radius:10px;
+    border:1px solid blue;
+    outline :none ;
+}
+.pw{
+    width: 100%;
+    height: 30px;
+    border-radius:10px;
+    border:1px solid blue;
+    outline :none ;
+}
+.mn{
+    width: 100%;
+    height: 30px;
+    border-radius:10px;
+    border:1px solid blue;
+    outline :none ;
+}
+.ak{
+    width: 100%;
+    height: 30px;
+    border-radius:10px;
+    outline: none;
+    border:1px solid blue;
+}
+.sp{
+    position: relative;
+    bottom:60px;
+    left: 30px;
+}
+label{
+    /* position: fixed; */
+}
+.gk{
+    position: relative;
+    bottom: 30px;
+    left: 15px;
+}
+.gp{
+    position:relative;
+    bottom:20px;
+    right:10px;
+}
+.ss{
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+}
+button{
+    position: relative;
+    bottom: 50px;
+    border-radius: 5px;
+    width: 100%;
+    height:30px;
+    background-color:green;
+    color: white;
+    font-size: 20px;
+}
+button:hover{
+    background-color: blue;
+}

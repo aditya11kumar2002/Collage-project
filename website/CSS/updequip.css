@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:blue;
+}
+.container{
+    /*border: 2px solid black;*/
+    width:500px;
+    height: 370px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 30px;
+
+}
+.container .title{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    color: blue;
+}
+.container form .input-field{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.container form .input-field .input{
+    outline: none;
+    width: 50%;
+    height: 30px;
+    border: 2px solid blue;
+}
+.container form .input-field .input:focus{
+  border:2px solid purple;
+}
+.container form   label{
+   /*border: 2px solid black;*/
+    width: 200px;
+    margin-right: 40px;
+}
+button{
+    position: relative;
+    left: 160px;
+    width: 290px;
+    height: 30px;
+    background-color: blueviolet;
+}
+button:hover{
+    background-color:blue;
+}
